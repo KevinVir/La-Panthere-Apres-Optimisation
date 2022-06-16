@@ -514,6 +514,11 @@ button {
     box-shadow: none;
 }
 
+label
+{
+    width: 100%;
+}
+
 .scrollToTop {
     width: 40px;
     height: 40px;
