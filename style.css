@@ -91,7 +91,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper-min.png");
+    background: url("img/texture-paper-min.webp");
     background-size: 280px 280px;
 }
 
@@ -651,7 +651,7 @@ a[data-lightbox]:hover img {
 
 .citation {
     font-style: italic;
-    color: #B4B4B4;
+    color: #727578;
     font-weight: 500;
 }
 
@@ -692,11 +692,6 @@ a[data-lightbox]:hover img {
 .contactmail {
     font-size: 20px;
     font-family: italic;
-}
-
-.indicationcontact {
-    font-weight: 700;
-    font-size: 20px;
 }
 
 .margincontact {
@@ -885,19 +880,19 @@ h4 {
 }
 
 .bg-dots-bg {
-    background-image: url("img/dots-bg-min.png");
+    background-image: url("img/dots-bg-min.webp");
 }
 
 .bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg-min.png");
+    background-image: url("img/lines-h2-bg-min.webp");
 }
 
 .bg-banniere {
-    background-image: url("img/agence-la-panthere-min.png");
+    background-image: url("img/agence-la-panthere-min.webp");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation-min.png");
+    background-image: url("img/image-de-presentation-min.webp");
 }
 
 @media (max-width: 1024px) {
