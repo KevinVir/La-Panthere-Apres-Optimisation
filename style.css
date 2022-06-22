@@ -517,6 +517,7 @@ button {
 label
 {
     width: 100%;
+    font-size: 18px;
 }
 
 .scrollToTop {
@@ -648,6 +649,60 @@ a[data-lightbox]:hover img {
     background: none;
 }
 
+.citation {
+    font-style: italic;
+    color: #B4B4B4;
+    font-weight: 500;
+}
+
+.partenairestop {
+    margin-top: 25px;
+}
+
+.partenaires {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.partenaires2 {
+    padding: 0 20px;
+    font-size: 17px;
+}
+
+.titlepartenaires {
+    font-weight: 700;
+}
+
+.reseauxtop {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.hoverlien:hover {
+    color: #233E7C!important;
+    font-weight: 700;
+}
+
+.underlinelien:hover {
+    text-decoration: underline;
+}
+
+.contactmail {
+    font-size: 20px;
+    font-family: italic;
+}
+
+.indicationcontact {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.margincontact {
+    padding-left: 60px;
+}
+
 h1,
 h2,
 h3,
@@ -660,7 +715,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #000000!important;
+    color: #575757;
 }
 
 .container {
@@ -686,7 +741,11 @@ a {
 }
 
 p {
-    font-size: 17px;
+    font-size: 18px;
+}
+
+.description {
+    font-size: 19px;
 }
 
 .tight-width-whitespace {
@@ -714,12 +773,13 @@ p {
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 30px;
     line-height: 1.4em;
+    font-weight: 700;
 }
 
 h3 {
-    font-size: 15px;
+    font-size: 18px;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
@@ -729,6 +789,7 @@ h3 {
     max-width: 800px;
     margin: auto auto auto auto;
     box-shadow: 0px 0px 0px #000000;
+    display: flex;
 }
 
 h1 {
@@ -745,7 +806,7 @@ h4 {
 }
 
 .white {
-    color: #000000!important;
+    color: #FFFFFF!important;
 }
 
 .portfolio-thumb {
@@ -798,8 +859,8 @@ h4 {
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c3876c!important;
-    color: #000000!important;
+    background: #233E7C!important;
+    color: #FFFFFF!important;
 }
 
 .ltc-white {
@@ -1039,6 +1100,29 @@ h4 {
     .blocsapp-device-iphone5 img {
         width: 180px;
         height: 320px;
+    }
+
+    .med-width-whitespace {
+        flex-direction: column;
+    }
+
+    .partenaires {
+        flex-direction: column;
+        padding: 0;
+        line-height: 30px;
+    }
+
+    .margincontact {
+        margin-top: 40px;
+    }
+
+    .contactmail {
+        margin-left: 10px;
+    }
+
+    .margincontactresponsive {
+        margin-left: 20px;
+        margin-right: 20px;
     }
 }
 
