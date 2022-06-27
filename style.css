@@ -680,12 +680,12 @@ a[data-lightbox]:hover img {
     font-weight: 700;
 }
 
-.hoverlien:hover {
+.hoverlien:hover, .hoverlien:focus {
     color: #233E7C!important;
     font-weight: 700;
 }
 
-.underlinelien:hover {
+.underlinelien:hover, .underlinelien:focus {
     text-decoration: underline;
 }
 
