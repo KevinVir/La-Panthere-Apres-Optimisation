@@ -519,6 +519,9 @@ label
     width: 100%;
     font-size: 18px;
 }
+.img-responsive {
+    margin: auto;
+}
 
 .scrollToTop {
     width: 40px;
